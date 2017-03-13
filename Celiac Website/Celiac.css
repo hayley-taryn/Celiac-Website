@@ -1,0 +1,50 @@
+<style>
+
+ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    } 
+
+li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+
+
+nav.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 5;
+}
+
+body {
+	font-family: helvetica, sans-serif;
+	margin: 0 auto;
+	max-width: 600px;
+	background: #232323;
+}
+
+h1 {
+	text-align: center;
+	color: #778899;	
+}
+
+.title{
+	text-align: center;
+	color: #778899;
+}
+
+
+.travel {
+	background-image: url('worldmap.jpg');
+	background-size: cover;
+}
+
+#appetizercontent{
+
+}
+
+
+</style>
