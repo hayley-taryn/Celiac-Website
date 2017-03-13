@@ -1,30 +1,45 @@
 <style>
 
-ul {
-      padding: 10px;
-      background: rgba(0,0,0,0.5);
-    } 
-
-li {
-      display: inline;
-      padding: 0px 10px 0px 10px;
-    }
-
-
-nav.navbar {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: 5;
-}
-
-body {
+#container {
+	width: 100%;
 	font-family: helvetica, sans-serif;
 	margin: 0 auto;
 	max-width: 600px;
 	background: #232323;
 }
+
+#nav {
+	background: #F0F8FF; 
+	text-align: center;
+}
+
+.navbar {
+      padding: 10px;
+    } 
+
+.navbarcontent{
+      display: inline;
+      padding: 0px 25px 0px 25px;
+    }
+
+#title{
+	text-align: center;
+}
+
+.section {
+	text-align: center;
+	padding: 20px;
+	margin: 0 auto;
+	border: 7px solid black;
+	color: #708090;
+}
+
+#map {
+	  margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+}
+
 
 h1 {
 	text-align: center;
@@ -37,10 +52,6 @@ h1 {
 }
 
 
-.travel {
-	background-image: url('worldmap.jpg');
-	background-size: cover;
-}
 
 #appetizercontent{
 
